@@ -1,0 +1,207 @@
+
+    body{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .category-title{
+        text-decoration: underline;
+
+    }
+    .container-fluid{
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+    }
+    header{
+        background-color: #5cff85;
+        color: #494947;
+        height:150px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-flow: row nowrap;
+        text-align: center;
+        font-size: 0.5em;
+    }
+    .homepage{
+        background-image: url("images/TVroom.jpg");
+        height: 600px;
+        
+        display: flex;
+        justify-content:center;
+        flex-flow: column wrap;
+        background-repeat: no-repeat;  /*Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire*/
+    }
+    .aboutpage{
+        background-color: #44ccff;
+        display: flex;
+        justify-content:center;
+        flex-flow: column wrap;
+        background-repeat: no-repeat;  /*Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire*/
+       
+    }
+    .showpage{
+        background-color: #44ccff;
+        height: 2000px;
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        flex-flow: column wrap;
+        background-repeat: no-repeat;  /*Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire*/
+       
+    }
+
+    .contactpage{
+        background-color: #44ccff;
+        height: 2000px;
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        flex-flow: column wrap;
+        background-repeat: no-repeat;  /*Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire*/
+       
+    }
+
+    .welcome{
+        display: flex;
+        background-color: #50e6c2;
+        font-size: 0.8em;
+        align-items: center;
+        justify-content: center;
+        flex-flow:column nowrap;
+        width: 300px;
+        margin: 20px;
+    }
+    .sidebar{
+        position: absolute;
+        bottom: 430px;
+        background-color: #494947;
+        color: #50e6c2;
+        font-weight: lighter;
+        width: 400px;
+        height: 80px;
+        display:flex;
+        flex-flow: row nowrap;
+    }
+    .shows{
+        display: flex;
+        flex-flow: column nowrap;
+        position: absolute;
+        top: 250px;
+        width: 75%;
+        margin-left: 30px;
+    }
+    .contact-me{
+        position:absolute;
+        top: 250px;
+    }
+    img{
+        width: 170px;
+        height: 120px;
+
+    }
+    .la{
+        margin-left:40px;
+        margin-right: 40px
+    }
+    .side{
+        margin-bottom: 50px;
+        margin-right: 10px;
+        color: #50e6c2;
+        display: flex;
+        justify-content: center;
+        font-family: 'Kiwi Maru', serif;
+        
+    }
+    .words{
+        margin: 30px
+    }
+    p{
+        font-family: 'Kiwi Maru', serif;
+        position:relative;
+        bottom: 10px;
+    }
+    
+
+   
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) {
+/* Styles */
+ 
+    .sidebar{
+        left: 800px;
+        bottom:100px;
+        width: 200px;
+        height: 600px;
+        flex-direction: column;
+        position: absolute;
+        top:160px;
+    }
+    header{
+        justify-content: center;
+        flex-flow: row wrap;
+        text-align: center;
+        font-size: 1em;
+     
+    }
+    .tv {
+        position: relative;
+        right: 120px;
+        
+    }
+    .welcome{
+      
+        display: flex;
+        font-size: 0.8em;
+        align-items: center;
+        justify-content: center;
+        flex-flow:column wrap;
+        width: 500px;
+        height:200px;
+        margin-top: 50px;
+    }
+    .image-description{
+        display: flex;
+        flex-flow: row nowrap;
+        width: 70%;
+    }
+    .descriptions{
+        position: relative;
+        width: 70%
+    }
+    p{
+        width: 70%;
+    }
+    .shows{
+        display: flex;
+        flex-flow: column nowrap
+    }
+    .category{
+        display: flex;
+        flex-flow: column nowrap
+    }
+    .show{
+        display: flex;
+        flex-flow: row nowrap;
+       
+    }
+    .description{
+        display: flex;
+        flex-flow: column nowrap;
+        position: relative;
+        bottom: 30px;
+        margin-left: 20px;
+    }
+    .contact-me{
+        margin-left: 200px;
+    }
+  
+  
+}
+/* Desktops and laptops ----------- */
